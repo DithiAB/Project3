@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+.main{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(199, 216, 231);
+}
+.grid{
+   width:80%;
+   height: 80%;
+    background-color: white;
+    box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
+    max-width: 110rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5rem
+}
+.card{
+    padding: 1em;
+    border: 1px solid silver;
+
+}
+h1{
+    padding-top: 20px;
+}
